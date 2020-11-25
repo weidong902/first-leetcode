@@ -34,6 +34,7 @@ public class P7_ReverseInteger{
 	 	 //测试代码
 	 	 Solution solution = new P7_ReverseInteger().new Solution();
 		 int reverse = solution.reverse(123);
+//		 ceshi ceshi222222222222222
 //		 ceshi ceshi
 		 //测试的分支3333333333333
 		 System.out.println(reverse);

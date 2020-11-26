@@ -52,13 +52,13 @@ public class P88_MergeSortedArray {
             // 合并两个有序数组，从右往左比较两个数组的元素，大的放到nums1数组的尾部，直到其中一个数组遍历完
 
             for (int mFindex = m + n - 1; mindex >= 0 && nindex >= 0; mFindex--) {
-				nums1[mFindex]=nums1[mindex]>nums2[nindex]?nums1[mindex--]:nums2[nindex--];
+                nums1[mFindex] = nums1[mindex] > nums2[nindex] ? nums1[mindex--] : nums2[nindex--];
 
             }
             // 如果nums1先结束，将nums2中的元素复制到nums1中
-			while(nindex>=0){
-				nums1[nindex]=nums2[nindex--];
-			}
+            while (nindex >= 0) {
+                nums1[nindex] = nums2[nindex--];
+            }
 
         }
     }

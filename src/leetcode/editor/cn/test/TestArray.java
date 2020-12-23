@@ -5,6 +5,12 @@ import org.junit.Test;
 public class TestArray {
 
     @Test
+    public void test3(){
+        String str="nini";
+        int length = str.length();
+
+    }
+    @Test
     public void test2Array(){
         // TODO Auto-generated method stub
         int[][] arr = {{1,2,3},{4,5,7},{6,8,9}};//动态创建：2个元素(外围数组),每一个元素中各有3个元素(内围数组)
